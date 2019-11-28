@@ -1,0 +1,48 @@
+Curso Git
+
+Conteúdo
+
+Controle de versão
+
+Comandos básicos
+
+Ramificações
+
+Publicando e colaborando
+
+Exercícios
+
+Extras
+
+Ferramentas similares ao git
+
+Subversion(SVN)
+Mercurial
+CVS-Concurrent Versioning System
+Bazaar
+
+
+gerar chave ssh  https://help.github.com/pt/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+chave ssh pass  zero
+
+
+git help
+
+criar repositorio:  git init
+
+verficar se foi criado repositorio
+
+ls -al
+
+para adicionar arquivo
+git add xxxx
+
+antes de  fazer commit 
+
+git config --global  user.nome 'clayton1549'
+git config --global  user.email ''
+
+depois fazer commit
+git commit
+
+
