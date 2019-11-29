@@ -81,6 +81,155 @@ Basicamente a maior parte do trabalho consiste nestas tarefas:
 Editar
 commitar
 Sincronizar com repositorio remoto
+Estados dos arquivos
+não monitorado
+modificado(untracked)
+preparado(modified)
+consolidado(commited)
+
+
+Diff
+Exibir diferenças entre commits e branchs
+git diff [path]
+
+Diferença no diretorio
+git diff HEAD~1
+
+Mostra o que foi alterado no ultimo commit
+Ver  diff no github
+
+Baixa o repositorio remoto
+Outra forma de criar um repositorio
+Já vem configurado.
+
+git clone
+
+Para voltar um diretorio 
+cd ..
+
+mudar nome do diretorio
+mv 'nome diretorio" 'novo nome'
+
+
+ls mostra os nomes dos arquivos
+
+
+
+Git Pull
+Baixa as alterações do repositorio remoto
+Mantém commits  de uma branch
+
+Navegar no histórico
+
+git checkout <commit> <file>
+ git log  e colar numero do commit
+git checkout 2ae62de73c
+
+git checkout mater 
+Volta ao estado anterior
+
+Desfazendo o checkout -- <path_or_file>
+Irá desfazer todas as alterações que não
+estejam no Stage desde o último commit
+
+Git checkot HEAD -- <path_file>
+antes de fazer add
+git -- . // desfaz todas as alterações 
+depoos de fazzer add
+git chekout -- .
+Desfazer as alterações desde o último commit
+incluindo o Stage
+
+Sair do git log 
+q do teclado
+
+Git Revert 
+git revert <commit>
+Irá criar um novo commit que desfaz as
+alterções do commit especificado.
+Útil para desfazer um commit antigo
+
+
+Reverter commit
+git revert b7dfd775b93(numero commit)
+
+
+cat palnetas (nome arquivo) exibe o conteudo dele
+Resetar o repositorio para determinado commit
+git reset <commit>
+
+Resetar e remover todas as alterações.
+-cuidado ao usar !
+não usar se já estier publicado
+ùtil para desfazer ultimos commits (se estiver no git hub)
+
+git reset --hard <commit>
+
+retira o ultimo commit
+git reset HEAD~1
+Apaga commit e retorna ao estado anterior
+git reset HEAD~1 --hard
+
+
+resolver comfitos (merge)
+
+fica assinm no codigo
+
+
+<<<<<<< HEAD
+Venus
+Urano
+=======
+Saturno
+>>>>>>> aae313c4331b2141d82c93bfaa942682934e5d28
+
+apagar linhas de demarcação do git
+
+depois git add .
+
+
+
+Branching
+Criando ramificações do repositorio
+
+É uma lista de commits
+Representa ramificações no repositorio
+Muito útil para trabalho colaborativos
+Brenchs de desenvolvimento facilitam
+o controle,
+Branch é padrão
+
+git branch
+
+a brand onde estou
+
+Criar nova branch <nova_brench>
+git branch <nova_branch>
+
+Excluir branch
+git branch -d <branch>
+
+Muda para a branch
+Seu repositorio passa a ter os commits que a
+branch possui e novos commits serão adcionados à ela.
+Git checkout <branch>
+
+agora todos os commits serão na nova breach e não
+na master
+remover arquivo
+rm.projjetc 
+
+para voltar para master git checkout master
+
+quado fizer git push dará erro
+git push -u origin <branch>
+
+Para alterar as mesmas linhas na master
+git checkout <branch>
+
+
+
+
 
 
 
