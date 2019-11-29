@@ -226,6 +226,29 @@ git push -u origin <branch>
 
 Para alterar as mesmas linhas na master
 git checkout <branch>
+git add .
+git commit -m ""
+git push
+
+
+
+
+Git Merge
+git merge <branch>
+Aplicar os commits de uma branch na branch
+atual.
+Encontra um commit comum(base) entre as
+branchs e aplica todos os commits que a
+branch atual não possue.
+Caso existam commits na branch atual que
+não estão na outra,será criado um commit de 
+merge.
+merge nos commits e um commit de merge
+
+git merge branch
+
+
+
 
 
 
