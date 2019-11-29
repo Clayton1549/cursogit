@@ -45,4 +45,42 @@ git config --global  user.email ''
 depois fazer commit
 git commit
 
+git status
+
+ver ultimos commits
+git log
+
+git commit -m "mensagem"
+
+
+repositorio git hub
+
+git remote add origin https://github.com/Clayton1549/cursogit.git
+git push -u origin master
+
+listar repositorio do github
+
+git remote -v
+
+
+mandar para o repositorio
+
+git push
+
+depois configurar com 
+ git push -u origin master
+
+depois 
+$ git config --global push.default simple
+
+adiciona tudo que estiver no diretorio no proximo commit
+  git add .
+  
+chama-se git Workflow
+Basicamente a maior parte do trabalho consiste nestas tarefas:
+Editar
+commitar
+Sincronizar com repositorio remoto
+
+
 
