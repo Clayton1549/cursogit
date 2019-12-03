@@ -247,6 +247,32 @@ merge nos commits e um commit de merge
 
 git merge branch
 
+Git merge <branch>
+Aplicar os commits de uma branch na branch atual.
+Encontra um commit comum(base) entre as
+branchs e aplica todos os commits que a branch atual não 
+possue.
+
+Caso existam commits na branch atual que
+não estão na outra ,será criado um commit
+de merge.
+
+
+git rebase <branch>
+Semelhante ao Merge porém é  diferente na
+ordem de aplicar os commits.
+NO Rebase , os seus commits na frente da base
+são removidos temporariamente , os commits 
+de outra branch são aplicados na sua brach e
+por fim sues commits são aplicados um a um.
+Pode acontecer conflitos que serão removidos
+para cada commit.
+
+cria nova brach
+git checkout -b branchb
+
+
+
 
 
 
