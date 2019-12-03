@@ -45,6 +45,7 @@ git config --global  user.email ''
 depois fazer commit
 git commit
 
+
 git status
 
 ver ultimos commits
@@ -81,6 +82,8 @@ Basicamente a maior parte do trabalho consiste nestas tarefas:
 Editar
 commitar
 Sincronizar com repositorio remoto
+
+
 Estados dos arquivos
 não monitorado
 modificado(untracked)
@@ -177,7 +180,6 @@ fica assinm no codigo
 
 
 
-
 apagar linhas de demarcação do git
 
 depois git add .
@@ -207,10 +209,12 @@ git branch -d <branch>
 Muda para a branch
 Seu repositorio passa a ter os commits que a
 branch possui e novos commits serão adcionados à ela.
-Git checkout <branch>
+git checkout <branch>
 
-agora todos os commits serão na nova breach e não
+agora todos os commits serão nena nova breach e não
 na master
+
+
 remover arquivo
 rm.projjetc 
 
@@ -221,6 +225,7 @@ git push -u origin <branch>
 
 Para alterar as mesmas linhas na master
 git checkout <branch>
+
 git add .
 git commit -m ""
 git push
@@ -241,6 +246,7 @@ merge.
 merge nos commits e um commit de merge
 
 git merge branch
+
 
 Git merge <branch>
 Aplicar os commits de uma branch na branch atual.
@@ -265,15 +271,42 @@ para cada commit.
 
 cria nova brach
 git checkout -b branchb
+ 
+Para juntar os commits
+git rebase master
+
+
+Git fech
+
+Baixa as atualizações do remote porém não
+aplica elas no repositorio.
+Permite fazer o rebase de uma branch em vez
+de fazeer o merge.
+Pull = Fech + Mege
+Fech e Rebase é melhor para manter histórico
+do desenvolvimento.
+
+baixa  commits
+  git fetch
+faz rebase da master
+git rebase
 
 
 
+Tag
+Útil para definir versões estáves do projeto.
+Semelhante a Branch porém não recebe mais commits.
+Garda um estado do repositorio
+git tag [nome da tag]
+git push<remote> <git tag>
+
+git tag v1.0
+git tag
+Mandar para repositorio
+git push origin v1.0
+
+no repositorio relise vai marcar 1
 
 
 
-
-
-
-
-
-
+ 
