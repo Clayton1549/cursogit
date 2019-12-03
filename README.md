@@ -1,6 +1,6 @@
 # curso git 
-![apresentacao.jpg(Aprendendo git)]
-Este repositorio de cursos 
+
+Este repositorio do curso Gii
 
 
 ![Apresentacao](/apresentacao.jpg "Curso git, 2019")
